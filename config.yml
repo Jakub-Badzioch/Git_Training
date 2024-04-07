@@ -1,0 +1,17 @@
+title: Demo System Status
+name: demo_with_statusfy
+description: ""
+defaultLocale: en
+baseUrl: "https://statusfy.higan.me"
+locales:
+  - code: en
+    iso: en-US
+    name: English
+    file: en.json
+content:
+  frontMatterFormat: json
+  systems:
+    - cdn
+    - conversions
+    - web
+    - api
